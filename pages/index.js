@@ -1,8 +1,8 @@
 import '../styles/globals.css';
-import ChatWidget from '../components/ChatWidget';
-import CharacterSelector from '../components/CharacterSelector';
-import VideoIntro from '../components/VideoIntro';
-import VoiceEngine from '../components/VoiceEngine';
+import ChatWidget from '../components/ChatWidget.js';
+import CharacterSelector from '../components/CharacterSelector.js';
+import VideoIntro from '../components/VideoIntro.js';
+import VoiceEngine from '../components/VoiceEngine.js';
 
 export default function Home() {
   return (
