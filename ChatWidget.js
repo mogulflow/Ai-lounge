@@ -1,0 +1,1 @@
+// ChatWidget.js component placeholder

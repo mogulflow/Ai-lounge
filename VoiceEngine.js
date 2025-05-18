@@ -1,0 +1,1 @@
+// VoiceEngine.js component placeholder

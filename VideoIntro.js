@@ -1,0 +1,1 @@
+// VideoIntro.js component placeholder

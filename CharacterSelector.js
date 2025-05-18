@@ -1,0 +1,1 @@
+// CharacterSelector.js component placeholder
