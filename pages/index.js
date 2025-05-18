@@ -1,25 +1,18 @@
-import Head from 'next/head';
-import ChatWidget from '../ChatWidget';
-import CharacterSelector from '../CharacterSelector';
-import VideoIntro from '../VideoIntro';
-import VoiceEngine from '../VoiceEngine';
-import '../globals.css';
+import '../styles/globals.css';
+import ChatWidget from '../components/ChatWidget';
+import CharacterSelector from '../components/CharacterSelector';
+import VideoIntro from '../components/VideoIntro';
+import VoiceEngine from '../components/VoiceEngine';
 
 export default function Home() {
   return (
-    <>
-      <Head>
-        <title>MogulFlow AI Lounge</title>
-      </Head>
-      <main className="container">
-        <h1>MogulFlow AI Lounge</h1>
-        <p>Welcome to your immersive AI experience.</p>
-
-        <CharacterSelector />
-        <VideoIntro />
-        <ChatWidget />
-        <VoiceEngine />
-      </main>
-    </>
+    <div style={{ padding: '2rem', fontFamily: 'Arial' }}>
+      <h1>MogulFlow AI Lounge</h1>
+      <p>Welcome to the hybrid AI experience.</p>
+      <CharacterSelector />
+      <VideoIntro />
+      <VoiceEngine />
+      <ChatWidget />
+    </div>
   );
 }
