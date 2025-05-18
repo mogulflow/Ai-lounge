@@ -1,4 +1,4 @@
-import '../styles/globals.css';
+
 import ChatWidget from '../components/ChatWidget.js';
 import CharacterSelector from '../components/CharacterSelector.js';
 import VideoIntro from '../components/VideoIntro.js';
