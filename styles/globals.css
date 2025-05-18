@@ -1,1 +1,14 @@
-body { margin: 0; padding: 0; font-family: Arial, sans-serif; background: #0d0d0d; color: #fff; }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0c0c0c;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
